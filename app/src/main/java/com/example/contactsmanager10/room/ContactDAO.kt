@@ -1,4 +1,4 @@
-package com.example.contactsmanager10
+package com.example.contactsmanager10.room
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -23,5 +23,5 @@ interface ContactDAO {
     suspend fun deleteAll()
 
     @Query("SELECT * FROM contacts_table")
-    fun getAllContacts():LiveData<ArrayList<Contact>>
+    fun getAllContacts():LiveData<List<Contact>>
 }

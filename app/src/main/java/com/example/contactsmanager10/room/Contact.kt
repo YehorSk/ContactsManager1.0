@@ -1,4 +1,4 @@
-package com.example.contactsmanager10
+package com.example.contactsmanager10.room
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
